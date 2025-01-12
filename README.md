@@ -51,8 +51,9 @@ class Program
         Console.WriteLine(xml);
     }
 }
-
+```
 Output
+```csharp
 <Animal>
   <Id>1</Id>
   <Name>Lion</Name>
@@ -62,7 +63,7 @@ Output
     <String>Brown</String>
   </Colors>
 </Animal>
-
+```
 How It Works
 Core Method: ConvertToXML
 This method accepts an object as input and generates its XML representation. It handles:
